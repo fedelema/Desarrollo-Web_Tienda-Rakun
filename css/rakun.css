@@ -265,8 +265,11 @@ footer {
   footer p {
     padding: 6px; }
 
+iframe {
+  margin-bottom: 50px; }
+
 .inicio {
-  margin-top: 100px; }
+  margin-top: 50px; }
 
 .mainInicio .mainInicio__ul {
   list-style-type: none; }
@@ -282,10 +285,11 @@ footer {
 
 .mainInicio .mainInicio__carousel {
   text-transform: uppercase;
-  font-weight: bold;
-  margin: 100px 0; }
+  font-weight: bold; }
   .mainInicio .mainInicio__carousel h5 {
     font-weight: bold; }
+  .mainInicio .mainInicio__carousel .mainInicio__carousel--altura {
+    height: 300px; }
 
 .mainInicio .mainInicio__botonProd--centrado {
   text-align: center; }
@@ -341,7 +345,9 @@ footer {
     text-align: center; }
   .productos .productos__lista {
     text-align: justify;
-    line-height: 30px; }
+    line-height: 30px;
+    margin: 0 50px;
+    padding: 0; }
   .productos .productos__fotos h2 {
     margin-top: 100px;
     text-align: center; }
@@ -349,8 +355,8 @@ footer {
     margin: 30px 0 30px 0;
     padding: 5px;
     text-align: center;
-    width: 160px;
-    height: 160px; }
+    width: 230px;
+    height: 230px; }
 
 .compra .compra__pasos {
   margin: 100px 20px 100px 20px;
@@ -388,6 +394,8 @@ footer {
     margin-top: 180px; }
   aside {
     display: none; }
+  .mainInicio .mainInicio__carousel .mainInicio__carousel--altura {
+    height: 125px; }
   .formatoMain3C {
     display: grid;
     grid-template-columns: 1fr;
@@ -399,7 +407,7 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     align-content: center; }
-  .listaProd {
+  .productos .productos__lista {
     text-align: justify;
     line-height: 30px;
     display: flex;
